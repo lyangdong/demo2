@@ -1,15 +1,659 @@
-15 lines (13 sloc)  359 Bytes
 
-<!doctype html>
-<html lang="zh-CN">
-<head>
+<!DOCTYPE html>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title></title>
+    <link rel="stylesheet" href="public.css"/>
+    <script src="jquery-1.12.4.min.js"></script>
+    <script src="public.js"></script>
 </head>
 <body>
-    hello world,this is demo2
+
+    <div id="header">
+        <div id="headerTop" class="auto">
+            <div class="herder-bg">
+                <div class="logo">
+                    <img src="images/logo.png" alt=""/>
+                    <i></i>
+                    <div class="header-box">
+                        <ul class="ul-list">
+                            <li><a href="#">一手货源</a></li>
+                            <li><a href="#">独款</a></li>
+                            <li><a href="#">专题选货</a></li>
+                            <li><a href="#">一件代发</a></li>
+                            <li><a href="#">一手货源</a></li>
+                            <li><a href="#">独款</a></li>
+                            <li><a href="#">专题选货</a></li>
+                            <li><a href="#">一件代发</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="user">您好，<span>ansen2003</span><a href="#">退出</a></div>
+                <div class="number">热线 <span>400-6611-603</span></div>
+                <ul class=" header-right ul-list">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">找款</a></li>
+                    <li><a href="#">一手货源</a></li>
+                    <li><a href="#">聚潮货</a></li>
+                    <li><a href="#">实力制造</a></li>
+                    <li><a href="#">找厂商</a></li>
+                    <li><a href="#">找代发</a></li>
+                    <li><a href="#">摄影设计</a></li>
+                    <li class="last-li"><a href="#">商学院</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="headerContact" class="auto">
+            <div class="contact-left">
+                <a class="header-title" href="#">迪特尼真皮鞋业</a>
+                <div class="contact-footer">
+                    <p class="contact-act">http://dtl.go2.cn</p>
+                    <a class="contact-link1" href="#">保存到桌面</a>
+                    <a class="contact-link2" href="#">收藏</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <img src="images/two_code_small.jpg" alt=""/>
+                <p class="part1">拿货咨询：2375135505</p>
+                <p class="part2">13982017668  /  13650555071</p>
+                <p class="part3">四川成都 国际商贸城3区2楼13街22042号</p>
+            </div>
+        </div>
+        <div id="nav">
+           <div class="nav-content auto">
+               <div class="nav-left">
+                   <div class="bb"></div>
+                   <ul>
+                       <li><a href="#">商家首页</a></li>
+                       <li class="visited"><a href="#">供应商品</a></li>
+                       <li><a href="#">当季新品</a></li>
+                       <li><a href="#"><i class="ico-lock"></i>会员专供</a></li>
+                       <li><a href="#">镇店之宝</a></li>
+                       <li><a href="#">独家款式</a></li>
+                       <li><a href="#">库存清仓</a></li>
+                       <li class="last-li"><a  href="#">已下架货源</a></li>
+                   </ul>
+                   </div>
+               <div class="nav-right">
+                   <ul>
+                       <li class="nav-one"><a href="#">商家动态</a></li>
+                       <li><a href="#">生产实拍</a></li>
+                       <li><a href="#">厂商介绍</a></li>
+                       <li><a href="#">服务承诺</a></li>
+                       <li class="nav-last"><a href="#">联系方式</a></li>
+                   </ul>
+               </div>
+           </div>
+        </div>
+        <div id="navList">
+            <div class="auto nav-list2" >
+                <ul class="ul-list">
+                    <li class="first-li"><a href="#">所有</a></li>
+                    <li><a href="#">凉鞋（3）</a></li>
+                    <li><a href="#">凉鞋（3）</a></li>
+                    <li><a href="#">凉鞋（3）</a></li>
+                    <li><a href="#">凉鞋（3）</a></li>
+                    <li><a href="#">凉鞋（3）</a></li>
+                    <li class="aaa"><a href="#">凉鞋（ 3 ）</a></li>
+                    <li class="visited"><a href="#">商品详情</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div id="content">
+       <div id="detail">
+           <div id="contentLeft">
+               <p class="report text-12"><a class="color-gray" href="#">投诉举报</a></p>
+               <div class="big-img">
+                   <img class="ico-red" src="images/product_tag_ico_1.png" alt=""/>
+                   <img class="ico-blue" src="images/product_tag_ico_2.png" alt=""/>
+                   <div class="big-footer">
+                       <ul>
+                           <li><a href="#">收藏（234）</a></li>
+                           <li><a href="#">分享（86）</a></li>
+                           <li><a href="#">外链本商品图片</a></li>
+                       </ul>
+                   </div>
+               </div>
+               <div class="footer-img">
+                   <ul>
+                       <li class="small-img red-border"><img src="images/60x60.png" alt=""/></li>
+                       <li class="small-img"><img src="images/60x60.png" alt=""/></li>
+                       <li class="small-img"><img src="images/60x60.png" alt=""/></li>
+                       <li class="small-img"><img src="images/60x60.png" alt=""/></li>
+                       <li class="small-img"><img src="images/60x60.png" alt=""/></li>
+                       <li class="small-img"><img src="images/60x60.png" alt=""/></li>
+                   </ul>
+               </div>
+           </div>
+           <div id="contentCenter">
+               <p class="color-blue text-18">商品货号：浪明诗&K69-1</p>
+               <p class="color-red text-12">采购分销商发布到零售平台请不要修改货号以便于物流拣货速度提升</p>
+               <div class="price">
+                   <p class="text-12 color-black">出厂拿货价
+                       <span class="color-red text-26">73</span><span class="color-red text-18">.00</span>元</p>
+                   <p class="text-12 color-black">建议零售价
+                       <span class="color-red text-26">158</span><span class="color-red text-18">.00</span>元</p>
+                   <p>毛利率 <span class="color-blue text-26">36%</span></p>
+                   <p class="text-12 color-black last-p">整单价：<img class="phone" src="images/small_ico_tell.png" alt=""/>
+                       <span class="color-orange">13982017668（张万利）</span>暂未开放，请联系厂商获得整单订货价</p>
+               </div>
+               <p class="text-16 color-blue aa">2016年最新小白鞋，大货已出，放心卖</p>
+               <div class="goods">
+                   <i></i>
+                   <ul class="text-12 color-gray">
+                       <li><span></span>金牌供应</li>
+                       <li><span></span>有大货</li>
+                       <li><span></span>72小时发货</li>
+                       <li><span></span>金牌供应</li>
+                       <li><span></span>有大货</li>
+                       <li><span></span>72小时发货</li>
+                       <li><span></span>金牌供应</li>
+                       <li><span></span>有大货</li>
+                       <li><span></span>72小时发货</li>
+                       <li><span></span>金牌供应</li>
+                       <li><span></span>有大货</li>
+                       <li><span></span>72小时发货</li>
+                   </ul>
+                   <p class="color-gray text-12 cc"> <span class="color-orange text-14"> >1 </span>件起代发</p>
+                   <div class="change">
+                       <span></span>
+                       <p class="color-orange text-12">15天包换</p>
+                       <p class="color-orange text-12">15天包换</p>
+                       <p class="color-orange text-12">15天包换</p>
+                       <p class="color-orange text-12">15天包换</p>
+                       <p class="color-orange text-12">15天包换</p>
+                       <p class="color-orange text-12">15天包换</p>
+                   </div>
+               </div>
+               <div class="size text-12 color-gray">
+                   <p class="abc">尺码</p>
+                   <p class="box-size text-14">35</p>
+                   <p class="box-size text-14">35</p>
+                   <p class="box-size text-14">35</p>
+                   <p class="box-size text-14">35</p>
+                   <p class="box-size text-14 last">35</p>
+                   <p class="cba" > （标准尺码，共5个码） </p>
+               </div>
+               <div class="color text-12 color-gray">
+                   <p class="abc">颜色</p>
+                   <p class="box-color text-14">灰色</p>
+                   <p class="box-color text-14">黑色</p>
+                   <p class="box-color text-14 last">红色</p>
+                   <p class="cba"> （ 共3色 ） </p>
+               </div>
+               <div class="publish">
+                   <ul>
+                       <li class="bg-red hover-red margin-right margin-left"><a class="color-white" href="#">一键发布到淘宝</a></li>
+                       <li class="bg-orange hover-orange margin-right"><a class="color-white" href="#">发布到阿里巴巴</a></li>
+                       <li class="bg-orange hover-orange"><a class="color-white" href="#">发布到微店</a></li>
+                       <li class="bg-white hover-yellow margin-left margin-right"><span class="img-down"></span><a class="color-orange" href="#">下载数据包</a></li>
+                       <li class="bg-white hover-yellow margin-right "><span class="img-join"></span><a class="color-orange" href="#">加入货选单</a></li>
+                       <li class="bg-blue hover-blue"><span class="img-assure"></span><a class="color-black" href="#">担保代发货</a></li>
+                   </ul>
+               </div>
+               <div class="detail-footer">
+                   <p class="text-12 color-gray2">最后更新：2016/01/27 23:57:36</p>
+                   <p class="text-12 color-gray">货源适合：<span class="one">淘宝网</span> <span class="two">阿里巴巴</span> <span class="three">微店</span></p>
+                   <p class="text-12 color-gray">交易支持：<span class="one">代发担保交易系统</span> <span class="two">线下实体店拿货</span><span class="three">支付宝</span></p>
+               </div>
+           </div>
+       </div>
+        <div id="contentRight">
+            <div class="right-title">
+                <img src="images/medal.png" alt=""/>
+                <p class="title-act">迪特尼真皮鞋业</p>
+            </div>
+            <div class="top-mode text-12">
+                <div class="mode">
+                    <i></i>
+                    <p class="color-black first-one vv">经营模式：</p>
+                    <p class="color-white bg-gray vv">加工生产</p>
+                    <p class="color-white bg-orange  vv">网销供应</p>
+                    <ul  class="color-white">
+                        <li class="bg-gray xx">加工生产</li>
+                        <li class="bg-red zz ">网销供应</li>
+                        <li class="bg-orange zz">加工生产</li>
+                        <li class="bg-red xx">网销供应</li>
+                        <li class="bg-gray zz">加工生产</li>
+                        <li class="bg-orange zz">网销供应</li>
+                        <li class="bg-red  xx">加工生产</li>
+                        <li class="bg-red zz">加工生产</li>
+                        <li class="bg-orange zz">网销供应</li>
+                        <li class="bg-orange xx">网销供应</li>
+                    </ul>
+                </div>
+                <div class="right-details">
+                    <div class="level">
+                        <p>供应等级： </p>
+                        <img src="images/level_1.gif" alt=""/>
+                        <img src="images/level_1.gif" alt=""/>
+                        <img src="images/level_2.gif" alt=""/>
+                        <img src="images/level_2.gif" alt=""/>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="time">入住时间：<span class="color-orange margin-time">1273</span>天</div>
+                    <div class="money">保<span class="margin-money">证</span>金：<span class="color-orange margin-money2">2000</span>元</div>
+                    <div class="name">实名认证：<span class="color-blue margin-name">范朝阳</span><img src="images/id_card.png" alt=""/></div>
+                    <div class="focus">
+                        <p class="text-12"><a href="#"><img src="images/heart_normal_ico.png" alt=""/>收藏店铺</a></p>
+                        <p class="text-12 focus-two"><a href="#"><img src="images/plus_normal_ico.png" alt=""/>关注<span class="color-orange">（234）</span></a></p>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+            </div>
+            <div class="contact-type">
+                <h2>联系方式 <span>（接受上门取货）</span></h2>
+                <p class="text-12 color-gray sss">电话：</p>
+                <div class="content-number">
+                    <p class="color-orange number1">13541216000</p>
+                    <i></i>
+                    <p class="color-orange number2">13541216000</p>
+                    <p class="color-orange number3">13541216000</p>
+                </div>
+                <dl class="text-12 color-gray bbb">
+                    <dd>城市： 四川 成都</dd>
+                    <dd>出货： 商贸城3区2楼13街22042号</dd>
+                    <dd>生产： 四川成都武侯区</dd>
+                    <dd>咨询： <img src="images/qqtalk.png" alt=""/></dd>
+                </dl>
+            </div>
+            <div class="special">
+                <p class="color-gray text-12">独家款</p>
+                <div class="special-img">
+                    <img src="images/90x90.png" alt=""/>
+                    <img src="images/90x90.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="main-left">
+            <h2 class="text-12 color-gray margin-top">厂商推荐</h2>
+            <ul>
+                <li>
+                    <a href="#"><img src="images/160x160.png" alt=""/></a>
+                    <p class="text-14 color-red font-weight">￥89.00</p>
+                    <a class="text-12 color-gray" href="#">2015夏季新款学生超高跟凉尚鱼嘴镂空罗马鞋</a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/160x160.png" alt=""/></a>
+                    <p class="text-14 color-red font-weight">￥89.00</p>
+                    <a class="text-12 color-gray" href="#">2015夏季新款学生超高跟凉尚鱼嘴镂空罗马鞋</a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/160x160.png" alt=""/></a>
+                    <p class="text-14 color-red font-weight">￥89.00</p>
+                    <a class="text-12 color-gray" href="#">2015夏季新款学生超高跟凉尚鱼嘴镂空罗马鞋</a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/160x160.png" alt=""/></a>
+                    <p class="text-14 color-red font-weight">￥89.00</p>
+                    <a class="text-12 color-gray" href="#">2015夏季新款学生超高跟凉尚鱼嘴镂空罗马鞋</a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/160x160.png" alt=""/></a>
+                    <p class="text-14 color-red font-weight">￥89.00</p>
+                    <a class="text-12 color-gray" href="#">2015夏季新款学生超高跟凉尚鱼嘴镂空罗马鞋</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-center">
+            <div class="title-img">
+                <img src="images/785x80.png" alt=""/>
+            </div>
+            <ul class="center-nav color-gray">
+                <li class="active">商品详情</li>
+                <li>拿货咨询</li>
+                <li>下载发布人气 <span style="line-height: 36px" class="text-12 color-orange font">2237</span></li>
+                <li>数据</li>
+                <li>投诉</li>
+                <li>采购说明</li>
+                <li><a class="color-black" href="#">手机版 <img src="images/phone_ico.png" alt=""/></a></li>
+                <li class="bg-orange"><a class="color-white" href="#">找担保金安全代发</a></li>
+            </ul>
+            <div class="details-change">
+                <div class="details-box">
+                    <div class="details box1">
+                        <ul class="text-12 details-list">
+                            <li><span class="color-gray">鞋垫材质：</span><span> 头层猪皮</span></li>
+                            <li><span class="color-gray">上市时间：</span><span>2015年秋季</span></li>
+                            <li><span class="color-gray">风格：</span><span>优雅帮面</span></li>
+                            <li><span class="color-gray">材质：</span><span>羊皮（除羊反绒）</span></li>
+                            <li><span class="color-gray">内里材质：</span><span> 头层猪皮</span></li>
+                            <li><span class="color-gray">皮质特征：</span><span class="color-orange">水染皮</span></li>
+                            <li><span class="color-gray">鞋垫材质：</span><span> 头层猪皮</span></li>
+                            <li><span class="color-gray">上市时间：</span><span>2015年秋季</span></li>
+                            <li><span class="color-gray">风格：</span><span>优雅帮面</span></li>
+                            <li><span class="color-gray">材质：</span><span>羊皮（除羊反绒）</span></li>
+                            <li><span class="color-gray">内里材质：</span><span> 头层猪皮</span></li>
+                            <li><span class="color-gray">皮质特征：</span><span class="color-orange">水染皮</span></li>
+                            <li><span class="color-gray">鞋垫材质：</span><span> 头层猪皮</span></li>
+                            <li><span class="color-gray">上市时间：</span><span>2015年秋季</span></li>
+                            <li><span class="color-gray">风格：</span><span>优雅帮面</span></li>
+                            <li><span class="color-gray">材质：</span><span>羊皮（除羊反绒）</span></li>
+                            <li><span class="color-gray">内里材质：</span><span> 头层猪皮</span></li>
+                            <li><span class="color-gray">皮质特征：</span><span class="color-orange">水染皮</span></li>
+                            <li><span class="color-gray">上市时间：</span><span>2015年秋季</span></li>
+                            <li><span class="color-gray">风格：</span><span>优雅帮面</span></li>
+                        </ul>
+                        <span class="show-more"><i></i></span>
+                        <div class="data">
+                            <div class="data-title">行情数据</div>
+                            <div class="data-title2"><p class=" text-12">类目：低鞋帮</p> <p class="text-12 color-gray2">近30日竞争走势</p></div>
+                            <div class="data-img">
+                                <div class="data-mark">
+                                    <p class="font-weight text-16 color-gray2">K</p>
+                                    <p class="text-12 color-gray2">0228</p>
+                                </div>
+                                <ul>
+                                    <li class="data-first"><p class="data-img1"></p></li>
+                                    <li><p class="data-img2"></p></li>
+                                    <li><p class="data-img3"></p></li>
+                                    <li><p class="data-img4"></p></li>
+                                    <li><p class="data-img5"></p></li>
+                                    <li><p class="data-img1"></p></li>
+                                    <li><p class="data-img2"></p></li>
+                                    <li><p class="data-img3"></p></li>
+                                    <li><p class="data-img4"></p></li>
+                                    <li><p class="data-img5"></p></li>
+                                    <li><p class="data-img1"></p></li>
+                                    <li><p class="data-img2"></p></li>
+                                    <li><p class="data-img3"></p></li>
+                                    <li><p class="data-img4"></p></li>
+                                    <li><p class="data-img5"></p></li>
+                                    <li><p class="data-img1"></p></li>
+                                    <li><p class="data-img2"></p></li>
+                                    <li><p class="data-img3"></p></li>
+                                    <li><p class="data-img4"></p></li>
+                                    <li><p class="data-img5"></p></li>
+                                    <li><p class="data-img1"></p></li>
+                                    <li><p class="data-img2"></p></li>
+                                    <li><p class="data-img3"></p></li>
+                                    <li><p class="data-img4"></p></li>
+                                    <li><p class="data-img5"></p></li>
+                                    <li><p class="data-img1"></p></li>
+                                    <li><p class="data-img2"></p></li>
+                                    <li><p class="data-img3"></p></li>
+                                    <li><p class="data-img4"></p></li>
+                                    <li class="data-last"><p class="data-img5"></p></li>
+
+                                </ul>
+                            </div>
+                            <div class="data-level">
+                                <div class="level-star">
+                                    <span class="text-12 color-gray">竞争力：</span>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i class="black-star"></i>
+                                    <i class="black-star"></i>
+                                </div>
+                                <div class="level-star">
+                                    <span class="text-12 color-gray">竞争力：</span>
+                                    <span class="text-12 color-gray">厂家自产销</span>
+                                </div>
+                                <div class="level-star">
+                                    <span class="text-12 color-gray">竞争力：</span>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i class="black-star"></i>
+                                    <i class="black-star"></i>
+                                    <i class="black-star"></i>
+                                    <i class="black-star"></i>
+                                </div>
+                                <div class="level-star">
+                                    <span class="text-12 color-gray">竞争力：</span>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i class="black-star"></i>
+                                    <i class="black-star"></i>
+                                    <i class="black-star"></i>
+                                    <i class="black-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keywords color-white">
+                            <span class="color-gray">标题关键词推荐</span>
+                            <i class="border-black3"></i><span class="bg-black3 ">大牌同款</span>
+                            <i class="border-black4"></i><span class="bg-black4 border-three">范冰冰走季款</span>
+                            <i class="border-black2"></i><span class="bg-black2 border-three">真皮马毛</span>
+                            <i class="border-black1"></i><span class="bg-black1 border-three">克罗心2016款</span>
+                            <i class="border-black3"></i><span class="bg-black3 border-three">粗坡跟</span>
+                            <span class="color-gray2 keywords-last">颜色越深代表关键词使用频率越高</span>
+                        </div>
+                        <div class="address">
+                            GO2.CN 购途市场 迪特尼真皮女鞋 一手货源唯一拿货地址 http://lms.go2.cn/
+                        </div>
+                        <div class="empty"></div>
+                        <div class="popularity">
+                            <div class="popularity-title">
+                                <ul class="pop-li">
+                                    <li class="popularity-first">下载发布人气</li>
+                                    <li>近30日商品人气</li>
+                                    <li>近30日类目行情</li>
+                                </ul>
+
+                            </div>
+                            <div class="popularity-details">
+                                <ul class="text-12 color-gray">
+                                    <li class="first-li">
+                                        <span class="popularity-name">g***3</span>
+                                        <i class="popularity-level1"></i> <i class="popularity-level1"></i> <i class="popularity-level1 img-last"></i>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <i class="popularity-level2"></i> <i class="popularity-level2"></i> <i class="popularity-level2 img-last"></i>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <i class="popularity-level2"></i> <i class="popularity-level2"></i> <i class="popularity-level2 img-last"></i>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <i class="popularity-level2"></i> <i class="popularity-level2"></i> <i class="popularity-level2 img-last"></i>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                </ul>
+                                <div class="popularity-img">
+                                    <p class="text-12 color-gray">人气商品</p>
+                                    <img src="images/200x200.png" alt=""/>
+                                    <div class="popularity-footer">
+                                        <a class="text-12 color-gray" href="#">收藏</a>
+                                        <a class="text-12 color-gray" href="#">分享</a>
+                                        <p class="text-12 color-gray">拿货价 <span class="color-orange text-16" >73.00</span></p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details box2">这是第二个</div>
+                    <div class="details box3">
+                        <div class="popularity">
+                            <div class="popularity-title">
+                                <ul class="pop-li">
+                                    <li class="popularity-first">下载发布人气</li>
+                                    <li>近30日商品人气</li>
+                                    <li>近30日类目行情</li>
+                                </ul>
+
+                            </div>
+                            <div class="popularity-details">
+                                <ul class="text-12 color-gray">
+                                    <li class="first-li">
+                                        <span class="popularity-name">g***3</span>
+                                        <i class="popularity-level1"></i> <i class="popularity-level1"></i> <i class="popularity-level1 img-last"></i>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <i class="popularity-level2"></i> <i class="popularity-level2"></i> <i class="popularity-level2 img-last"></i>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <span>新卖家</span> <span class="color-orange">NEW</span>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <i class="popularity-level2"></i> <i class="popularity-level2"></i> <i class="popularity-level2 img-last"></i>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                    <li>
+                                        <span class="popularity-name">g***3</span>
+                                        <i class="popularity-level2"></i> <i class="popularity-level2"></i> <i class="popularity-level2 img-last"></i>
+                                        <span class="popularity-time">2016-01-21 11:16:17</span>
+                                        <span class="popularity-last">发布</span>
+                                    </li>
+                                </ul>
+                                <div class="popularity-img">
+                                    <p class="text-12 color-gray">人气商品</p>
+                                    <img src="images/200x200.png" alt=""/>
+                                    <div class="popularity-footer">
+                                        <a class="text-12 color-gray" href="#">收藏</a>
+                                        <a class="text-12 color-gray" href="#">分享</a>
+                                        <p class="text-12 color-gray">拿货价 <span class="color-orange text-16" >73.00</span></p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details box4"></div>
+                    <div class="details box5"></div>
+                    <div class="details box6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-right">
+            <ul class="text-12 color-gray tell">
+                <li class="tell-title"><span class="title-box1">商家动态公告</span><span class="title-box2"></span></li>
+                <li class="tell-detail">春江；货号218的商品下架了，请及时更新产吕信息！</li>
+                <li class="tell-time">[2015-12-29 09:17:19]</li>
+                <li class="tell-detail">春江；货号218的商品下架了，请及时更新产吕信息！</li>
+                <li class="tell-time">[2015-12-29 09:17:19]</li>
+                <li class="tell-detail">春江；货号218的商品下架了，请及时更新产吕信息！</li>
+                <li class="tell-time last-tell">[2015-12-29 09:17:19]</li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <p></p>
+        <div class="footer-flow">
+        </div>
+        <div class="footer-last">
+            <img src="images/1190x75.png" alt=""/>
+        </div>
+    </div>
 </body>
 </html>
