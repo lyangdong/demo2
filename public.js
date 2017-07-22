@@ -1,6 +1,4 @@
-/**
- * Created by liu on 2016/6/13.
- */
+
 $(function(){
     $('.center-nav li').click(function(){
         var index = $(this).index();
